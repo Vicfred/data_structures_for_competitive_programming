@@ -1,0 +1,8 @@
+# Ignore everything by default.
+*
+
+# Repository files to track.
+!*.cpp
+!README.md
+!LICENSE
+!.gitignore
