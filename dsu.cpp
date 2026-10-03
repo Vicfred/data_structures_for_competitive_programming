@@ -58,7 +58,7 @@ public:
 
     parent[x] = y;
     set_size[y] += set_size[x];
-    --num_sets;
+    num_sets -= 1;
   }
 
   // Return the current number of disjoint sets.
